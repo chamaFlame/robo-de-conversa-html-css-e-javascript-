@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(2, 37, 150);
+}
+.characterImages{
+    position:absolute;
+    top:10px;
+    left:450px;
+    border-style: groove;
+    border-color: rgb(81, 81, 81);
+    border-width: 10px;
+}
+#characterTalk{
+    position:absolute;
+    top:120px;
+    left:860px;
+    color:white;
+    text-align: center;
+    background-color: black;
+    border-color:black;
+    border-radius:5px;
+    font-size: 20px;
+}
+#unmuteButton{
+    position:absolute;
+    left:120px;
+    top:100px;
+    width : 150px;
+    height : 150px;
+    background-color:grey;
+    border-style: solid;
+    border-color:black;
+}
+#textField{
+    position:absolute;
+    left:270px;
+    top:570px;
+    width:400px;
+    font-size:30px;
+}
+#sendButton{
+    width : 120px;
+    height : 70px;
+    position:absolute;
+    left:730px;
+    top:550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size : 50px;
+    color : black;
+    background-color: white;
+}
+.buttonsAnimation:active{
+    transform: translateY(2px);
+}
+#stopButton{
+    position:absolute;
+    left:580px;
+    top:550px;
+    font-size:50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    background-color:red;
+}
